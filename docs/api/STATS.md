@@ -1172,6 +1172,13 @@
     * `VsDivision`
     * `Weight`
 
+* `winProbabilityPbp`
+  * Endpoint:
+    [`/stats/winprobabilitypbp`](https://stats.nba.com/stats/winprobabilitypbp)
+  * Parameters:
+    * `GameID`
+    * `RunType`
+
 ### Parameter Reference
 
 * `aheadBehind`
@@ -1401,6 +1408,9 @@
     * `'0'`
     * `'1'`
     * `'2'`
+* `runType`
+  * Possible values:
+    * `each+second`
 * `scope`
   * Possible values:
     * `'S'`

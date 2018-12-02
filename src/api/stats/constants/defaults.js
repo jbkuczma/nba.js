@@ -36,6 +36,7 @@ const DEFAULTS = {
   playoffRound: "0",
   pointDiff: "5",
   rangeType: 0,
+  runType: "each+second",
   scope: "S",
   season: "2017-18",
   seasonSegment: null,
@@ -1302,5 +1303,14 @@ export const LEAGUE_STANDINGS = {
     LeagueID: DEFAULTS.leagueID,
     SeasonType: DEFAULTS.seasonType,
     Season: DEFAULTS.season
+  }
+};
+
+export const WIN_PROBABILITY_PBP = {
+  method: "winProbabilityPbp",
+  endpoint: "/stats/winprobabilitypbp",
+  defaults: {
+    GameID: DEFAULTS.gameID,
+    RunType: DEFAULTS.runType
   }
 };
